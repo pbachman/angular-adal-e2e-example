@@ -8,6 +8,18 @@ How to write an E2E Test, if your angular app uses Azure AD Authentication ? Loo
 npm install
 ```
 
+## Configuration
+
+Add your TenantId and ClientId in the ADAL Configuration.
+
+```sh
+const config: adal.Config = {
+  tenant: '[your tenant]', // https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-create-new-tenant
+  clientId: '[your clientId]', // https://auth0.com/docs/connections/enterprise/azure-active-directory/v2 
+  cacheLocation: 'localStorage'
+};
+```
+
 ## How to start ?
 
 Run `ng serve` and `ng e2e --port 5000` to execute the end-to-end tests.
