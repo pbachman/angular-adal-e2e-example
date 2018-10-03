@@ -14,11 +14,15 @@ Add your TenantId and ClientId in the ADAL Configuration.
 
 ```sh
 const config: adal.Config = {
-  tenant: '[your tenant]', // https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-create-new-tenant
-  clientId: '[your clientId]', // https://auth0.com/docs/connections/enterprise/azure-active-directory/v2 
+  tenant: '[your tenantId]',
+  clientId: '[your applicationId]',
   cacheLocation: 'localStorage'
 };
 ```
+## Azure Docs
+
+https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-create-new-tenant#use-an-existing-tenant (TenantId)
+https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-create-service-principal-portal#get-application-id-and-authentication-key (ApplicationId)
 
 ## How to start ?
 
