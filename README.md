@@ -22,6 +22,7 @@ const config: adal.Config = {
 ## Azure Docs
 
 https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-create-new-tenant#use-an-existing-tenant (TenantId)
+
 https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-create-service-principal-portal#get-application-id-and-authentication-key (ApplicationId)
 
 ## How to start ?
